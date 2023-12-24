@@ -30,49 +30,57 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Four Just Men</dc:title>
 		<meta property="file-as" refines="#title">Four Just Men, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="dcterms:alternate" refines="#title">The 4 Just Men</meta>
+		<dc:subject id="subject-1">Detective and mystery stories, English</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-1">sh85037269</meta>
+		<meta property="se:subject">Adventure</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">The Four Just Men</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">1</meta>
+		<dc:description id="description">To prevent the passage of a controversial government bill, four vigilantes take the law into their own hands.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;With his determination to push through a controversial government bill that would allow the forced return of political refugees to their country of origin, the British Foreign Secretary has become the target of “The Four Just Men,” a vigilante group famous for executing those that cannot be reached by traditional law&lt;/p&gt;
+			&lt;p&gt;When the Four send warning letters threatening death to the Foreign Secretary if the government does not withdraw the bill by deadline, all police forces are tasked with safeguarding his life. Despite numerous precautions and several clues leading to the identification of one member, it seems that the Four are moving closer to achieving their goal as the deadline approaches&lt;/p&gt;
+			&lt;p&gt;In an effort to boost sales, &lt;a href="https://standardebooks.org/ebooks/edgar-wallace"&gt;Wallace&lt;/a&gt; self-published &lt;i&gt;The Four Just Men&lt;/i&gt; without a conclusion, and held a contest for readers to guess the answer to the remaining mystery. Unfortunately, the required prize payments forced him into bankruptcy and he sold the rights to the book with included conclusion. The completed book appears here.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Four Just Men&lt;/i&gt; was adapted for film in 1921 and 1939 and for television in 1959.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://www.fadedpage.com/showbook.php?pid=20201001</dc:source>
+		<dc:source>https://archive.org/details/fourjustmen0000edga</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Four_Just_Men</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Four_Just_Men_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edgar-wallace_the-four-just-men</meta>
 		<dc:creator id="author">Edgar Wallace</dc:creator>
 		<meta property="file-as" refines="#author">Wallace, Edgar</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Richard Horatio Edgar Wallace</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edgar_Wallace</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80034938</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
+		<dc:contributor id="artist">William Marlow</dc:contributor>
+		<meta property="file-as" refines="#artist">Marlow, William</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/William_Marlow</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/no2010043740</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Alex White</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">White, Alex</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">The Online Distributed Proofreaders Canada Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Online Distributed Proofreaders Canada Team, The</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<meta property="se:url.homepage" refines="#transcriber-2">https://www.pgdpcanada.net</meta>
+		<dc:contributor id="producer-1">Norman C. Walz</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Walz, Norman C.</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
