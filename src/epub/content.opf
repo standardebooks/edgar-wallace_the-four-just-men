@@ -50,7 +50,7 @@
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20201001</dc:source>
 		<dc:source>https://archive.org/details/fourjustmen0000edga</dc:source>
 		<meta property="se:word-count">37863</meta>
-		<meta property="se:reading-ease.flesch">71.75</meta>
+		<meta property="se:reading-ease.flesch">71.85</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Four_Just_Men_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edgar-wallace_the-four-just-men</meta>
 		<dc:creator id="author">Edgar Wallace</dc:creator>
