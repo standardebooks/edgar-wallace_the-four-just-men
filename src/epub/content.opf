@@ -39,6 +39,9 @@
 		<meta id="collection-1" property="belongs-to-collection">The Four Just Men</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
+		<meta id="collection-2" property="belongs-to-collection">The Crime Writers’ Association Top 100 Crime Novels of All Time</meta>
+		<meta property="collection-type" refines="#collection-2">set</meta>
+		<meta property="group-position" refines="#collection-2">100</meta>
 		<dc:description id="description">To prevent the passage of a controversial government bill, four vigilantes take the law into their own hands.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;With his determination to push through a controversial government bill that would allow the forced return of political refugees to their country of origin, the British Foreign Secretary has become the target of the “Four Just Men,” a vigilante group famous for executing those who cannot be reached by traditional law.&lt;/p&gt;
