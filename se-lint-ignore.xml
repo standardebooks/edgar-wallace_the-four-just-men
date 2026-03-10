@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="chapter-9.xhtml">
 		<ignore code="y-035">
+			<line>112</line>
 			<reason>Matched text is a cipher.</reason>
 		</ignore>
 	</file>
